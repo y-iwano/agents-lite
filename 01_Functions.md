@@ -9,12 +9,7 @@
 - get_todays_date
 
 ## パラメーター
-- カタログを指定します
-  catalog_name = "yiwano"
-- データスキーマを指定
-  system_schema_name = "agents_lab"
-- ユーザースキーマを指定
-  user_schema_name = "agents_lab_yohei_iwano"
+./config.md を参照
 
 ## 関数の定義
 新たに作成する関数は全て {catalog_name}.{user_schema_name} スキーマに作成します。

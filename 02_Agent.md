@@ -2,18 +2,7 @@
 このファイルでは、Databricks における AI Agent 開発を体験してもらうためのハンズオンで利用する AI Agent について定義しています。
 
 ## パラメーター
-- カタログを指定します
-  catalog_name = "yiwano"
-- データスキーマを指定
-  system_schema_name = "agents_lab"
-- ユーザースキーマを指定
-  user_schema_name = "agents_lab_yohei_iwano"
-- Vector Search Endpoint を指定
-  vs_endpoint = "one-env-shared-endpoint-1"
-- Vector Search Index を指定
-  vs_index = f"{catalog_name}.{system_schema_name}.product_docs_index"
-- 要約に利用する GenAI を指定
-  genai_endpoint = "databricks-gpt-oss-120b"
+./config.md を参照
 
 ## AI Agent 定義
 - AI Agent は 簡単な RAG を作成します。フローは次の通りです。
